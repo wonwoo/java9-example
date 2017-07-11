@@ -1,5 +1,6 @@
 package me.wonwoo;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -7,9 +8,11 @@ import java.util.Set;
 /**
  * Created by wonwoolee on 2017. 6. 11..
  */
+@Deprecated(since = "9", forRemoval = true)
 public class CollectionsFactory {
 
   public static void main(String[] args) {
+
     List<Integer> listNumbers = List.of(1, 2, 3, 4, 5);
     System.out.println(listNumbers);
 
